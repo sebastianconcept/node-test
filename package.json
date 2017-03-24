@@ -1,0 +1,29 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "Foundation to test node code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianconcept/node-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianconcept/node-test/issues"
+  },
+  "homepage": "https://github.com/sebastianconcept/node-test#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  }
+}
